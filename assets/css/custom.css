@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap');
+
+:root{
+  --brand-gold:#c8b052;
+  --brand-black:#0a0907;
+  --brand-red:#ae0304;
+}
+
+body{font-family:'Source Serif Pro',serif;}
+.navbar-brand{font-family:'AR One Sans',sans-serif;font-weight:700;}
+.breadcrumb{background:transparent;margin-bottom:0;}
+.nav-link.active{font-weight:700;border-bottom:2px solid currentColor;}
+.logo-img{height:40px;width:auto;border-radius:4px;vertical-align:middle;margin-right:.5rem;}
+
+.btn-circle {
+      width: 50px; /* Adjust as needed */
+      height: 50px; /* Must match width for a perfect circle */
+      padding: 0; /* Remove default padding */
+      border-radius: 50%; /* Makes it round */
+      display: flex; /* For centering content */
+      justify-content: center;
+      align-items: center;
+    }
